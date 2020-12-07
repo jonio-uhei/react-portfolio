@@ -1,0 +1,363 @@
+li{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  cursor:pointer;
+}
+img{
+  width: 100%;
+}
+body{
+  background-color:#f6f6f6;
+}
+.operation-site{
+  text-align: center;
+  color: #f78fdc;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.portfolio{
+  background-color: #f78fdc;
+  line-height:2em;
+  text-align: center;
+  border-radius:10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  &__link{
+    color:#fff;
+    font-weight: bold;
+    font-family: 幻ノにじみ明朝;
+  }
+}
+.wordpress{
+  background-color: #f78fdc;
+  line-height:2em;
+  border-radius:10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  &__link{
+    color:#fff;
+    font-weight: bold;
+    font-family: 幻ノにじみ明朝;
+  }
+  &--margin-bottom{
+    margin-bottom: 30px;
+  }
+}
+.twitter{
+  width: 60px;
+  display: block;
+  margin:0 auto 40px;
+}
+.about-background{
+  padding: 60px 0;
+  transition-duration:1s;
+  &:hover{
+    background-color:rgba(247, 252, 109,0.9);
+    transition-duration:0.5s;
+  }
+}
+.skills-background{
+  padding: 60px 0;
+  transition-duration:1s;
+  &:hover{
+    background-color:rgba(158, 252, 111,0.9);
+    transition-duration:0.5s;
+  }
+}
+.other-skill-background{
+  padding: 60px 0;
+  transition-duration:1s;
+  &:hover{
+    background-color:rgba(247, 169, 96,0.8);
+    transition-duration:0.5s;
+  }
+}
+header{
+  padding: 20px 0;
+  position:fixed;
+  width: 100%;
+  z-index:10;
+  h2{
+    font-family: 幻ノにじみ明朝;
+    color:#fff;
+    font-size: 20px;
+  }
+  background-color: rgb(122, 162, 221);
+  .container{
+    display: flex;
+    justify-content:space-between;
+  }
+}
+main{
+  padding-top: 60px;
+}
+.container{
+  padding: 0 20px; 
+  &__logo{
+    color:#e7ed2b;
+  }
+}
+.about-container{
+    padding: 0 20px;
+}
+.menu-smart{
+  position:absolute;
+  top:10px;
+  right:90px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  z-index:10;
+  background-color:rgba(255,255,255,0.85);
+  color:#7aa2dd;
+  padding: 20px 10px 10px 10px;
+  border-radius:10px;
+  &__item{
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  &--margin{
+    margin-bottom: 0;
+  }
+}
+.menuButton{
+  cursor:pointer;
+  color:#fff;
+  font-family: 幻ノにじみ明朝;
+  font-size: 20px;
+}
+.menu-pc{
+  display: none;
+}
+.hero{
+  &__job{
+    margin: 30px 0;
+    padding: 0 20px;
+  }
+  &__list{
+      font-size: 18px;
+      margin-bottom: 10px;
+      letter-spacing:1px;
+      font-weight: bold;
+      color: rgb(122, 162, 221);
+      font-family: 幻ノにじみ明朝;
+  }
+}
+.part{
+  &--bold{
+      font-weight: bold;
+      font-size: 17px;
+      color: rgb(122, 162, 221);
+  }
+  &__title{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(122, 162, 221);
+    font-family: 幻ノにじみ明朝;
+    font-weight: bold;
+  }
+  &__sub-title{
+    font-weight: bold;
+    color:#7aa2dd;
+    margin-top: 30px;
+  }
+  &__explain{
+    line-height:2em;
+    letter-spacing:1px;
+    margin-top: 20px;
+  }
+  a{
+    color: rgb(122, 162, 221);
+    font-weight: bold;
+  }
+}
+
+
+/*モーダル*/
+.App {
+    font-family: sans-serif;
+    &__button{
+      background-color: rgb(122, 162, 221);
+      box-shadow:none;
+      border:none;
+      color:#fff;
+      padding: 5px 10px;
+      font-size: 16px;
+      border-radius:10px;
+      transition-duration:0.8s;
+      display: block;
+      margin:20px auto 0;
+      width: 230px;
+    }
+    &__button:hover{
+      opacity:0.8;
+      transition-duration:0.5s;
+    }
+  }
+.modal{
+  background:none;
+  border:none;
+  text-align:initial;
+  &__explain{
+    line-height:1.8em;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  &__close{
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    border:1px solid black;
+  }
+  &--bold{
+    font-weight: bold;
+    font-size: 17px;
+    color:#fff;
+  }
+  &--bold,a{
+    color:#fff;
+    opacity:0.7;
+  }
+  a{
+    transition-duration:0.8s;
+  }
+  a:hover{
+    opacity:0.5;
+    transition-duration:1s;
+  }
+}
+/*モーダルここまで*/
+
+
+.contact{
+  background-color: rgb(122, 162, 221);
+  width: 200px;
+  display: block;
+  margin:0 auto;
+  color:#fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius:10px;
+  margin-top: 100px;
+}
+footer{
+  padding: 20px 0;
+  background-color: rgb(122, 162, 221);
+  text-align: center;
+  color:#fff;
+}
+
+@media screen and (min-width:768px) { 
+  .container{
+    width: 750px;
+    margin:0 auto;
+  }
+  header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h2{
+      font-size: 25px;
+    }
+  }
+  .menu-smart{
+    right:110px;
+  }
+  .menuButton {
+  font-size: 25px;
+  }
+  main{
+    padding-top: 120px;
+  }
+  .hero{
+    width: 700px;
+    margin:0 auto;
+    &__list{
+      font-size: 25px;
+    }
+  }
+  .portfolio{
+    width: 400px;
+    margin:20px auto 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  .wordpress{
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    width: 450px;
+    font-size: 20px;
+    text-align:initial;
+  }
+  .part{
+    &__title{
+      text-align: center;
+      font-size: 25px;
+    }
+    &--bold,&__explain{
+      font-size: 20px;
+    }
+    &__sub-title{
+      font-size: 23px;
+    }
+  }
+  .App{
+    &__button{
+      font-size: 20px;
+      width: 300px;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  }
+  .modal{
+    &__explain{
+      font-size: 20px;
+    }
+    &--bold{
+      font-size: 25px;
+    }
+  }
+  .contact{
+    font-size: 25px;
+    width: 250px;
+  }
+}
+@media screen and (min-width:1024px) { 
+  .menu-pc{
+    display: flex;
+    &__item{
+      font-size: 25px;
+      color:#fff;
+      font-family: 幻ノにじみ明朝;
+      margin-left: 20px;
+    }
+  }
+  .menuButton{
+    display: none;
+  }
+  .menu-smart{
+  display: none;
+  }
+  header{
+    .container{
+      width: 90%;
+    }
+  }
+  .hero{
+    width: 1100px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    &__image{
+      display: block;
+      width: 700px;
+    }
+  }
+}
